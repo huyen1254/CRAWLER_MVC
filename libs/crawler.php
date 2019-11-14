@@ -57,7 +57,7 @@ class crawler{
             
         ];
 
-        $this->model->addPage($data['path'], $data['host'], $data['title'], $data['content']);
+        $this->addPage($data['path'], $data['host'], $data['title'], $data['content']);
     }
 
    
